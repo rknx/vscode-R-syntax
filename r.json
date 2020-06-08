@@ -177,7 +177,7 @@
                     "name": "keyword.operator.arithmetic.r"
                 },
                 {
-                    "match": "(:=|<-|<<-|->|->>)",
+                    "match": "(:=|<-|->|%->%)",
                     "name": "keyword.operator.assignment.r"
                 },
                 {
@@ -191,6 +191,10 @@
                 {
                     "match": "(%between%|%chin%|%like%|%\\+%|%\\+replace%|%:%|%do%|%dopar%|%>%|%<>%|%T>%|%\\$%)",
                     "name": "keyword.operator.other.r"
+                },
+                {
+                    "match":"[=>%|%>=>%|%=>>%|%<=>%|%!=>%|->>|<<-]",
+                    "name":"keyword.operator.pipe.r"
                 },
                 {
                     "match": "(\\.\\.\\.|\\$|:|\\~|@)",
