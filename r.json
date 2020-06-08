@@ -193,7 +193,7 @@
                     "name": "keyword.operator.other.r"
                 },
                 {
-                    "match":"[=>%|%>=>%|%=>>%|%<=>%|%!=>%|->>|<<-]",
+                    "match":"(%=>%|%>=>%|%=>>%|%<=>%|%!=>%|->>|<<-)",
                     "name":"keyword.operator.pipe.r"
                 },
                 {
