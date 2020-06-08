@@ -6,9 +6,11 @@ Addition of syntaxes for my custom pipes: `%=>%`, `%>=>%`, `%=>>%`, `%->%`
 
 Addition of my lambda operator (no more assignment operator): `->>`
 
-Changes are applied for the file:
+Source: 
 
 - https://github.com/Ikuyadeu/vscode-R/blob/master/syntax/r.json
+
+Changes are applied for the file:
 
 - %userprofile%/.vscode\extensions\ikuyadeu.r-x.x.x\syntax\r.json
 
